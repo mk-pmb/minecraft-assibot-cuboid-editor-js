@@ -19,8 +19,16 @@
   "directories": { "test": "test" },
   "eslintConfig": { "extends": "nodejs-pmb" },
 
-  "dependencies": {},
+  "dependencies": {
+    "getown": "^1.0.1",
+    "minecraft-protocol": "^1.57.0"
+  },
   "devDependencies": {
+    "eslint-config-nodejs-pmb": "^0.3.6",
+    "eslint-plugin-json-light-pmb": "^1.0.7",
+    "eslint-plugin-n": "^17.16.2",
+    "eslint-pretty-pmb": "^1.0.5",
+    "nodemjs": "^0.1.16"
   },
 
 
