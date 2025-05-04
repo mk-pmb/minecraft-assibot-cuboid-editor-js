@@ -1,0 +1,28 @@
+{ "name": "minecraft-assibot-cuboid-editor",
+  "version": "0.0.0",
+  "description": "A Minecraft bot that can join your LAN game to help you edit cuboids.",
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/minecraft-assibot-cuboid-editor-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/minecraft-assibot-cuboid-editor-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/minecraft-assibot-cuboid-editor-js/issues"
+  },
+  "contributors": [],
+
+  "private": true, "license": "ISC",
+
+  "scripts": { "test": "elp && nodemjs test/all.mjs" },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {},
+  "devDependencies": {
+  },
+
+
+  "engines": { "npm": ">=7.0.0", "node": ">=21.0.0" }
+}
